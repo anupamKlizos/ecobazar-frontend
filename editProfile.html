@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css">
+    <link rel="icon" href="./assets/image/faveicon.ico">
+    <title>Ecobazar :: Edit Profile</title>
+</head>
+<body>
+
+    <!-- Header Start-->
+    <header>
+        <div class="top_header">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6"> 
+                        <p class="location">
+                            <i class="fa-solid fa-location-dot"></i>Store Location: Lincoln- 344, Illinois, Chicago, USA
+                        </p>
+                    </div>
+                    <div class="col-lg-6">
+                        <select class="form-select language" aria-label="Default select example">
+                            <option selected>Eng</option>
+                            <option value="1">One</option>
+                            <option value="2">Two</option>
+                            <option value="3">Three</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="bottom_header">
+            <div class="container">
+                <div class="nav_section">
+                    <div class="menu"> 
+                        <ul>
+                           <li class="nave_item"><a href="index.html" class="nave_link">Home</a></li>
+                           <li class="nave_item"><a href="shope.html" class="nave_link">Shope</a></li>
+                           <li class="nave_item"><a href="about.html" class="nave_link">About Us</a></li>
+                           <li class="nave_item"><a href="contact.html" class="nave_link">Contect Us</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="logo_section">
+                        <a href="#" class="h_logo">
+                            <img src="./assets/image/logo.png" alt="logo">
+                        </a>
+                    </div>
+
+                    <div class="right_section">
+                        <a href="tel:965396795" class="h_call">
+                            <i class="fa-solid fa-phone-volume"></i>
+                            <span>(219) 555-0114</span>
+                        </a>
+
+                        <ul class="action_icon_list">
+                            <li><i class="fa-solid fa-magnifying-glass"></i></li>
+                            <li><i class="fa-regular fa-heart"></i></li>
+                            <li class="bag"><i class="fa-solid fa-bag-shopping"></i> <span>2</span></li>
+                            <li><i class="fa-regular fa-user"></i></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- Header End-->
+
+
+    <!-- Inner Banner Start-->
+    <section class="inner_banner_section">
+        <div class="container">
+            <div class="content">
+                <ul>
+                    <li><i class="fa-solid fa-house"></i></li><i class="fa-solid fa-chevron-right"></i>
+                    <li><a href="#">Edit Profile</a></li>
+                </ul>
+            </div>
+        </div>
+        <img src="./assets/image/inner_banner_image.jpg" alt="">
+    </section>
+    <!-- Inner Banner End-->
+
+
+    <!-- editProfile_section Start-->
+    <section class="editProfile_section">
+        <div class="container">
+            <div class="row gy-5">
+                <div class="card mb-4">
+                    <header class="card-header">
+                        <div class="row gx-3">
+                            <h4 class="card-title mb-0">Account Settings</h4>
+                        </div>
+                    </header>
+                
+                    <div class="card-body">
+                        <div class="row gx-5 ec-vendor-uploads">
+                
+                            <div class="col-12">
+                                <div class="ec-vendor-upload-detail">
+                                    <form class="row g-5">
+                                        <div class="profile_image">
+                                            <div class="position-relative">
+                                                <div class="image">
+                                                    <img src="./assets/image/customer_1.png" alt="Profile" id="login-update-preview">
+                                                </div>
+                                                
+                                                <div class="profile_image_input">
+                                                    <label for="image" class="form-label"><i class="fa-regular fa-pen-to-square"></i></label>
+                                                    <input type="file" class="form-control" id="image" onchange="document.getElementById('login-update-preview').src = window.URL.createObjectURL(this.files[0])" name="image">
+                                                </div>
+                                            </div>
+                                        </div>
+                
+                                        <div class="col-md-6 form-group">
+                                            <label for="firstname" class="form-label">First Name</label>
+                                            <input type="text" class="form-control slug-title" id="firstname">
+                                        </div>
+                
+                                        <div class="col-md-6 form-group">
+                                            <label for="lastname" class="form-label">Last Name</label>
+                                            <input type="text" class="form-control slug-title" id="lastname">
+                                        </div>
+                
+                                        <div class="col-md-6 form-group">
+                                            <label for="email" class="form-label">Email</label>
+                                            <input type="email" class="form-control slug-title" id="email">
+                                        </div>
+                
+                                        <div class="col-md-6 form-group">
+                                            <label for="number" class="form-label">Phone Number</label>
+                                            <input type="tel" class="form-control slug-title" id="number">
+                                        </div>
+                
+                                        <div class="col-md-12 form-group">
+                                            <button type="submit" class="common-btn4 rounded-0">Submit</button>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                
+                        </div>
+                    </div> 
+                </div>
+                
+                <div class="card mb-4">
+                    <header class="card-header">
+                        <div class="row gx-3">
+                            <h4 class="card-title mb-0">Additional Info</h4>
+                        </div>
+                    </header>
+                
+                    <div class="card-body">
+                        <div class="row gx-5 ec-vendor-uploads">
+                
+                            <div class="col-12">
+                                <div class="ec-vendor-upload-detail">
+                                    <h3>Add address <button class="add_new_address"><i class="fa-solid fa-plus"></i></button></h3>
+                                    <form class="row g-5 edit_form mt-5">
+                                        <div class="col-12 form-group address_field">
+                                            <label for="address" class="form-label">Address</label>
+                                            <input type="text" class="form-control slug-title" id="address">
+                                        </div>
+                
+                                        <div class="col-md-6 form-group">
+                                            <label class="form-label">Country</label>
+                                            <select name="country" id="country" class="form-select">
+                                                <option value="algeria">Algeria</option>
+                                                <option value="india">India</option>
+                                                <option value="sweden">Sweden</option>
+                                                <option value="albania">Albania</option>
+                                                <option value="angola">Angola</option>
+                                                <option value="bangladesh">Bangladesh</option>
+                                            </select>
+                                        </div>
+                
+                                        <div class="col-md-6 form-group">
+                                            <label class="form-label">State</label>
+                                            <select name="state" id="state" class="form-select">
+                                                <option value="andhraPradesh">Andhra Pradesh</option>
+                                                <option value="arunachalPradesh">Arunachal Pradesh</option>
+                                                <option value="karnataka">Karnataka</option>
+                                                <option value="kerala">Kerala</option>
+                                                <option value="meghalaya">Meghalaya</option>
+                                                <option value="mizoram">Mizoram</option>
+                                            </select>
+                                        </div>
+                
+                                        <div class="col-md-6 form-group">
+                                            <label class="form-label">City</label>
+                                            <select name="city" id="city" class="form-select">
+                                                <option value="agra">Agra</option>
+                                                <option value="asansol">Asansol</option>
+                                                <option value="belagavi">Belagavi</option>
+                                                <option value="brahmapur">Brahmapur</option>
+                                                <option value="bilaspur">Bilaspur</option>
+                                                <option value="cuttack">Cuttack</option>
+                                            </select>
+                                        </div>
+                
+                                        <div class="col-md-6 form-group">
+                                            <label for="postal_code" class="form-label">Postal Code</label>
+                                            <input type="text" class="form-control slug-title" id="postal_code">
+                                        </div>
+                
+                                        <div class="col-md-12 form-group">
+                                            <button type="submit" class="common-btn4 rounded-0">Submit</button>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                
+                        </div>
+                    </div> 
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- editProfile_section Start-->
+
+
+    <!-- footer Start-->
+    <footer>
+        <div class="top_footer">
+            <div class="container">
+                <div class="row gy-5">
+                    <div class="col-xl-3 col-lg-4 col-md-6 col-12">
+                        <a href="index.html" class="footer_logo">
+                            <img src="./assets/image/f_logo.png" alt="">
+                        </a>
+                        <p>Morbi cursus porttitor enim lobortis molestie. Duis gravida turpis dui, eget bibendum magn.</p>
+                        <ul class="social_link">
+                            <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                            <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                            <li><a href="#"><i class="fa-brands fa-pinterest"></i></a></li>
+                            <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-3 col-sm-4 col-6">
+                        <h3>My Account</h3>
+                        <ul class="footer_menu">
+                            <li><a href="profile.html">Profile</a></li>
+                            <li><a href="orderHistory.html">Order History</a></li>
+                            <li><a href="shoppinCart.html">Shoping Cart</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-md-3 col-sm-4 col-6">
+                        <h3>Helps</h3>
+                        <ul class="footer_menu">
+                            <li><a href="contact.html">Contact</a></li>
+                            <li><a href="faq.html">Faqs</a></li>
+                            <li><a href="termsCondition.html">Terms &amp; Condition</a></li>
+                            <li><a href="privacyPolicy.html">Privacy Policy</a></li>
+                        </ul>
+                    </div>
+
+
+                    <div class="col-xl-3 col-lg-2 col-md-3 col-sm-4">
+                        <h3>Helps</h3>
+                        <ul class="footer_menu">
+                            <li><a href="about.html">About</a></li>
+                            <li><a href="shope.html">Shop</a></li>
+                            <li><a href="trackOrder.html">Track Order</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="bottom_footer">
+            <div class="container">
+                <div class="row">
+                    <p>Ecobazar eCommerce © 2024. All Rights Reserved</p>
+                </div>
+            </div>
+        </div>
+        
+    </footer>
+    <!-- footer End-->
+
+</body>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./assets/js/script.js"></script>
+</html>
+
+

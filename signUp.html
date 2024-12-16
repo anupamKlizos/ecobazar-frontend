@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+    <link rel="icon" href="./assets/image/faveicon.ico">
+    <title>Ecobazar</title>
+</head>
+<body>
+
+    <!-- Header Start-->
+    <header class="sticky_header">
+        <div class="top_header">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 col-10"> 
+                        <p class="location">
+                            <i class="fa-solid fa-location-dot"></i>Store Location: Lincoln- 344, Illinois, Chicago, USA
+                        </p>
+                    </div>
+                    <div class="col-lg-6 col-2">
+                        <select class="form-select language" aria-label="Default select example">
+                            <option selected>Eng</option>
+                            <option value="1">One</option>
+                            <option value="2">Two</option>
+                            <option value="3">Three</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="bottom_header">
+            <div class="container">
+                <div class="lg_menu nav_section">
+
+                    <div class="menu"> 
+                        <ul>
+                           <li class="nave_item"><a href="index.html" class="nave_link">Home</a></li>
+                           <li class="nave_item"><a href="shope.html" class="nave_link">Shope</a></li>
+                           <li class="nave_item"><a href="about.html" class="nave_link">About Us</a></li>
+                           <li class="nave_item"><a href="contact.html" class="nave_link">Contect Us</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="logo_section">
+                        <a href="index.html" class="h_logo">
+                            <img src="./assets/image/logo.png" alt="logo">
+                        </a>
+                    </div>
+
+                    <div class="right_section">
+                        <a href="tel:965396795" class="h_call">
+                            <i class="fa-solid fa-phone-volume"></i>
+                            <span>(219) 555-0114</span>
+                        </a>
+
+                        <ul class="action_icon_list">
+                            <li class="search_icon">
+                                <i class="fa-solid fa-magnifying-glass"></i>
+
+                                <form class="productSearchform">
+                                    <div class="input-group">
+                                        <input list="search_terms" type="text" class="form-control" placeholder="Search Products">
+                                    </div>
+                                    <datalist id="search_terms">
+                                        <option value="Products"></option>
+                                        <option value="New orders"></option>
+                                        <option value="Apple iphone"></option>
+                                        <option value="Ahmed Hassan"></option>
+                                    </datalist>
+                                </form>
+                            </li>
+                            
+                            <li><a href="wishlist.html"><i class="fa-regular fa-heart"></i></a></li>
+                            <li class="bag card_icon"><i class="fa-solid fa-bag-shopping"></i> <span>2</span></li>
+                            <li class="auth_link"><a href="signUp.html" class="common-btn4">Sign Up</a></li>
+                            <!-- <li class="dropdown nav-item user_info">
+                                <div class="dropdown">
+                                  <a class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                                    <img class="img-xs rounded-circle" src="./assets/image/customer_1.png" alt="User">
+                                  </a>
+                                
+                                  <ul class="dropdown-menu common-dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                    <li><a class="dropdown-item" href="editProfile.html"><i class="fa-solid fa-user"></i>Edit Profile</a></li>
+                                    <li><a class="dropdown-item" href="#"><i class="fa-solid fa-gear"></i>Account Settings</a></li>
+                                    <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item text-danger" href="#"><i class="fa-solid fa-arrow-right-from-bracket"></i>Logout</a>
+                                  </ul>
+                                </div>
+                            </li> -->
+
+                            <div id="toggle" class="">
+                                <div class="one"></div>
+                                <div class="two"></div>
+                                <div class="three"></div>
+                            </div>
+                            <!-- <li><i class="fa-regular fa-user"></i></li> -->
+                        </ul>
+                    </div>
+
+                    
+                </div>
+
+                <div class="mobile_menu menu" id="menu">
+                    <ul>
+                        <li class="nave_item"><a href="index.html" class="nave_link">Home</a></li>
+                        <li class="nave_item"><a href="shope.html" class="nave_link">Shope</a></li>
+                        <li class="nave_item"><a href="about.html" class="nave_link">About Us</a></li>
+                        <li class="nave_item active"><a href="contact.html" class="nave_link">Contect Us</a></li>
+                    </ul>
+
+                    <!-- <ul class="action_icon_list">
+                        <li><i class="fa-solid fa-magnifying-glass"></i></li>
+                        <li><a href="wishlist.html"><i class="fa-regular fa-heart"></i></a></li>
+                        <li class="bag card_icon"><i class="fa-solid fa-bag-shopping"></i> <span>2</span></li>
+                        <li class="dropdown nav-item user_info">
+                            <div class="dropdown">
+                              <a class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                                <img class="img-xs rounded-circle" src="./assets/image/customer_1.png" alt="User">
+                              </a>
+                            
+                              <ul class="dropdown-menu common-dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                <li><a class="dropdown-item" href="editProfile.html"><i class="fa-solid fa-user"></i>Edit Profile</a></li>
+                                <li><a class="dropdown-item" href="#"><i class="fa-solid fa-gear"></i>Account Settings</a></li>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item text-danger" href="#"><i class="fa-solid fa-arrow-right-from-bracket"></i>Logout</a>
+                              </ul>
+                            </div>
+                        </li>
+                    </ul> -->
+                </div>
+
+                
+            </div>
+        </div>
+
+
+        <div class="card_right_main">
+            <div class="top_boxes">
+                <div class="head">
+                    <h3>Shopping Card <span>(2)</span></h3>
+                    <i class="fa-solid fa-xmark card_remove"></i>
+                </div>
+
+                <ul>
+                    <li>
+                        <div class="left">
+                            <img src="./assets/image/product/Image-6.png" alt="">
+                            <div class="content">
+                                <h4>Fresh Indian Orange</h4>
+                                <h5 class="quantity">12.00</h5>
+                            </div>
+                        </div>
+
+                        <div class="right">
+                            <i class="fa-solid fa-xmark"></i>
+                        </div>
+                    </li>
+
+
+                    <li>
+                        <div class="left">
+                            <img src="./assets/image/product/Image-6.png" alt="">
+                            <div class="content">
+                                <h4>Fresh Indian Orange</h4>
+                                <h5 class="quantity">12.00</h5>
+                            </div>
+                        </div>
+
+                        <div class="right">
+                            <i class="fa-solid fa-xmark"></i>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="bottom_boxes">
+                <div class="head">
+                    <h3>2 Product</h3>
+                    <h4>$26.00</h4>
+                </div>
+                <a href="checkout.html" class="common-btn">Checkout</a>
+                <a href="shoppinCart.html" class="common-btn">Go To Cart</a>
+            </div>
+        </div>
+
+    </header>
+    <!-- Header End-->
+
+
+    <!-- Inner Banner Start-->
+    <section class="inner_banner_section">
+        <div class="container">
+            <div class="content">
+                <ul>
+                    <li><i class="fa-solid fa-house"></i></li><i class="fa-solid fa-chevron-right"></i>
+                    <li>Account</li><i class="fa-solid fa-chevron-right"></i>
+                    <li><a href="#">Create Account</a></li>
+                </ul>
+            </div>
+        </div>
+        <img src="./assets/image/inner_banner_image.jpg" alt="">
+    </section>
+    <!-- Inner Banner End-->
+
+
+    <!-- auth_section Start-->
+    <section class="auth_section">
+        <div class="container">
+            <div class="auth_main_box">
+                <div class="auth_inner_box">
+                    <h1>Sign Up</h1>
+                    <form>
+
+                        <div class="mb-3">
+                            <input type="text" class="form-control" id="name" placeholder="Name">
+                            <p class="error" id="nameError"></p>
+                        </div>
+
+                        <div class="mb-3">
+                            <input type="email" class="form-control" id="email" placeholder="Email">
+                            <p class="error" id="emailError"></p>
+                        </div>
+
+                        <div class="mb-3">
+                            <input type="tel" class="form-control" id="number" placeholder="Number">
+                            <p class="error" id="numberError"></p>
+                        </div>
+
+                        <div class="mb-3">
+                            <input type="password" class="form-control" id="password" placeholder="password">
+                            <p class="error" id="passwordError"></p>
+                        </div>
+
+                        <button type="submit" class="common-btn">Sign Up</button>
+
+                        <p>Already have an account? <a href="signIn.html">Sign In</a></p>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- auth_section End-->
+
+    
+    <!-- footer Start-->
+    <footer>
+        <div class="top_footer">
+            <div class="container">
+                <div class="row gy-5">
+                    <div class="col-xl-3 col-lg-4 col-md-6 col-12">
+                        <a href="index.html" class="footer_logo">
+                            <img src="./assets/image/f_logo.png" alt="">
+                        </a>
+                        <p>Morbi cursus porttitor enim lobortis molestie. Duis gravida turpis dui, eget bibendum magn.</p>
+                        <ul class="social_link">
+                            <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                            <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                            <li><a href="#"><i class="fa-brands fa-pinterest"></i></a></li>
+                            <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-3 col-sm-4 col-6">
+                        <h3>My Account</h3>
+                        <ul class="footer_menu">
+                            <li><a href="profile.html">Profile</a></li>
+                            <li><a href="orderHistory.html">Order History</a></li>
+                            <li><a href="shoppinCart.html">Shoping Cart</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-md-3 col-sm-4 col-6">
+                        <h3>Helps</h3>
+                        <ul class="footer_menu">
+                            <li><a href="contact.html">Contact</a></li>
+                            <li><a href="faq.html">Faqs</a></li>
+                            <li><a href="termsCondition.html">Terms &amp; Condition</a></li>
+                            <li><a href="privacyPolicy.html">Privacy Policy</a></li>
+                        </ul>
+                    </div>
+
+
+                    <div class="col-xl-3 col-lg-2 col-md-3 col-sm-4">
+                        <h3>Helps</h3>
+                        <ul class="footer_menu">
+                            <li><a href="about.html">About</a></li>
+                            <li><a href="shope.html">Shop</a></li>
+                            <li><a href="trackOrder.html">Track Order</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="bottom_footer">
+            <div class="container">
+                <div class="row">
+                    <p>Ecobazar eCommerce © 2024. All Rights Reserved</p>
+                </div>
+            </div>
+        </div>
+        
+    </footer>
+    <!-- footer End-->
+
+</body>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./assets/js/script.js"></script>
+</html>
